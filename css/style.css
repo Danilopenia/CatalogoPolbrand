@@ -1,0 +1,45 @@
+#body{
+    background-color: rgb(255, 255, 255);
+}
+
+.div-title{
+    margin-left: 400px;
+}
+#iconP{
+    width: 250px;
+    margin-left:150px ;
+}
+#h1{
+    font-size:100px;
+font-weight: 800;
+}
+
+.card{
+    margin-left: 500px;
+    width: 400px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.card-body{
+    background-color: rgb(181, 180, 180);
+}
+
+
+@media screen and (max-width: 600px){
+    .div-title{
+        margin-left: 25%;
+    }
+    #iconP{
+        width: 50%;
+        margin-left: 25%;
+    }
+    #h1{
+        font-size: 250%;
+        
+    }
+
+    .card{
+        margin-left: 1%;
+        margin-top: 20%; 
+    }
+}
